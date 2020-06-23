@@ -1,6 +1,8 @@
 <template>
-  <div id="tabBar">
-    <slot></slot>
+  <div>
+    <div id="tabBar">
+      <slot></slot>
+    </div>
   </div>
 </template>
 
@@ -22,7 +24,5 @@
 
     box-shadow: 0 -1px 1px rgba(100 , 100 , 100 , .2);
   }
-
-
 
 </style>

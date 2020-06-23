@@ -2,7 +2,7 @@
   <tab-bar>
     <tab-bar-item path="/home" activeColor="blue">
       <img slot="item-icon" src="~assets/img/tabbar/home.svg" alt="">
-      <img slot="item-icon-active" src="~ssets/img/tabbar/home_active.svg" alt="">
+      <img slot="item-icon-active" src="~assets/img/tabbar/home_active.svg" alt="">
       <div slot="item-text">首页</div>
     </tab-bar-item>
     <tab-bar-item path="/category" activeColor="blue">
@@ -24,8 +24,8 @@
 </template>
 
 <script>
-  import TabBar from "components/common/tabbar/TabBar"; //在script里引用不需要@
-  import TabBarItem from "components/common/tabbar/TabBarItem";
+  import TabBar from 'components/common/tabbar/TabBar'; //在script里引用不需要@
+  import TabBarItem from 'components/common/tabbar/TabBarItem';
 
   export default {
     name: "MainTabBar",
